@@ -111,8 +111,12 @@ def mostrar_consulta():
         print(f"Status: {status}")
         print('==================================')
 
+    for i in range(0,5):
+        time.sleep(1); print('.')
+
     cur.close()
     conn.close()
 
 painel_principal()
+
 
