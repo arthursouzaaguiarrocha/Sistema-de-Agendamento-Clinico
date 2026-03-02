@@ -23,4 +23,4 @@ CREATE TABLE IF NOT EXISTS consultas(
 	FOREIGN KEY (paciente_id) REFERENCES pacientes(id),
 	FOREIGN KEY (medico_id) REFERENCES medicos(id)
 );
-select*from consultas
+select*from medicos
