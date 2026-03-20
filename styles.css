@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Navbar*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+    height: 70px;
+    background-color: rgba(100, 0, 194, 0.753);
+}
+header a, button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:50px;
+}
+.navbar-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover{
+    color: #c98fff;
+}
+header h4{
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+}
+
+/*Body*/
+/*div 1*/
+.cont1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:120px;
+    padding-right:120px;
+    background-image: linear-gradient(rgb(190, 126, 250), rgb(132, 56, 175));
+    height: 500px;
+
+}
+.cont1 img{
+    max-width: 500px;
+}
+
+.contex h1{
+    font-size: 60px;
+}
+.contex h1,h2,h3{
+    color:#fff
+}
+.contex h2{
+    color: #e1c0ff;
+}
+.contex h3{
+    font-size: small;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.contex button{
+    margin:0;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.contex  h2{
+    margin-top:20px ;
+}
+/*div 2*/
+.cont2{
+    margin: 50px;
+    padding-left:75px;
+    padding-right:75px;
+}
+.cont2 h2,h3{
+    color:black
+}
+.cont2 h2{
+    font-size: 40px;
+}
+.cont2 h3{
+    font-size:20px;
+}
+/*div 3*/
+.cont3{
+    background-color: #370050;
+}
+.wrapper{
+    padding-top: 50px ;
+    padding-left:120px;
+    padding-right:120px;
+    
+}
+.cont3 h2{
+    color:rgb(255, 252, 252)
+}
+.cont3 h2{
+    font-size: 40px;
+}
