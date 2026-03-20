@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    padding-top:70px;
     box-sizing:border-box;
 }
 /* Navbar*/
@@ -12,8 +13,14 @@ header{
     padding-right: 80px;
     box-sizing: border-box;
     height: 70px;
-    background-color: rgba(100, 0, 194, 0.753);
+    background-color: rgb(100, 0, 194);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
+
 header a, button{
     display: flex;
     justify-content: space-between;
@@ -43,22 +50,18 @@ header h4{
 /*div 1*/
 .cont1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-left:120px;
     padding-right:120px;
     background-image: linear-gradient(rgb(190, 126, 250), rgb(132, 56, 175));
     height: 500px;
-
 }
-.cont1 img{
-    max-width: 500px;
+.contex{
+    text-align: center  ;
 }
-
 .contex h1{
     font-size: 60px;
-}
-.contex h1,h2,h3{
     color:#fff
 }
 .contex h2{
@@ -81,6 +84,8 @@ header h4{
 }
 /*div 2*/
 .cont2{
+    display: flex;
+    justify-content: center;
     margin: 50px;
     padding-left:75px;
     padding-right:75px;
@@ -94,19 +99,74 @@ header h4{
 .cont2 h3{
     font-size:20px;
 }
+
+.wrapper1, .wrapper2{
+    margin-left: 50px;
+}
 /*div 3*/
 .cont3{
-    background-color: #370050;
-}
-.wrapper{
-    padding-top: 50px ;
+    padding: 50px;
     padding-left:120px;
     padding-right:120px;
-    
+    background-color:rgb(100, 0, 194);
+    box-sizing: border-box;
 }
 .cont3 h2{
-    color:rgb(255, 252, 252)
-}
-.cont3 h2{
+    color:#fff;
+    text-align: center;
     font-size: 40px;
 }
+.menu_servicos, .menu_servicos2{
+    display: flex;
+    justify-content: space-between;
+}
+.func1,.func2,.func3,.func4,.func5,.func6{
+    width: 900px;
+    height: 200px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgb(0, 0, 0);
+}
+
+.cont4{
+    padding: 50px;
+    padding-left:120px;
+    padding-right:120px;
+    background-color:rgb(50, 0, 70);
+    box-sizing: border-box;
+}
+.cont4 h2{
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cont5{   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-left:120px;
+    padding-right:120px;
+    background-color:rgb(177, 61, 255);
+}
+
+.cont5 h2{
+    color:#fff;
+    text-align: center;
+    font-size: 40px;    
+}
+.cont5 h3{
+    color: #e3c5ff;
+    text-align: center;
+}
+.cont5 button{
+    text-align: center;
+    margin:0;
+    margin-right: 50px;
+    margin-top: 20px; 
+}
+
+
