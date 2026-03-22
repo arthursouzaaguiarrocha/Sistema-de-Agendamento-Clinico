@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        height: 100vh; 
+        background-color: rgb(219, 219, 219);
+    }
+    .conta{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        position: relative;
+        border-radius:25px ;
+    }
+    .conta h3{
+        margin: 20px;
+    }
+    .conta input{
+        margin: 10px;
+        width: 300px;
+        height: 40px;
+    }
+    .conta p,a{
+        font-size: small;
+    }
+    .btn-primary{
+        width: 150px;
+        margin:20px
+    }
+</style>
+<body>
+    <div class="conta">
+        <form action="/criar_conta" method="POST">
+            <h3>Criar conta</h3>
+            <input type="name" placeholder="Digite seu nome"><br>
+            <input type="email" placeholder="Digite seu email"><br>
+            <input type="email" placeholder="Confirmar email"><br>
+            <input type="password" placeholder="Digite sua senha" inputmode="email">
+            <button type="button" class="btn btn-primary">Criar Conta</button>
+            
+
+        </form>
+    </div>
+</body>
+</html>
